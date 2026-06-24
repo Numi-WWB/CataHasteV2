@@ -1,7 +1,6 @@
-============================================================
  CataHaste  -  Cata-style Haste for DoTs & HoTs
  World of Warcraft 3.3.5a (WotLK)
-============================================================
+=============================================
 This is open source. Feel free to expand or change it to you likings!
 Just credit me
 
@@ -68,25 +67,8 @@ Opens a panel with sliders that tweak how the yellow extra-tick numbers
 look and move. All values are saved per character and apply instantly
 to the next tick.
 
-    Font Size               Text size of the floating number.
-    Rise Height             How far the number floats upward (pixels).
-    Rise Speed              How fast the number floats upward.
-    Horizontal Spread Min   Minimum sideways offset from the nameplate.
-    Horizontal Spread Max   Maximum sideways offset from the nameplate.
-
-    Reset Defaults          Restore all five sliders to factory values.
-
-WARNING: Spread Min must NEVER be higher than Spread Max - the random
-range would be invalid and throw a Lua error on the next tick.
-
 
 OPTIONAL TUNING  (server admin, top of CataHaste.lua)
------------------------------------------------------
-You do not need to touch these - they have working defaults:
-    HASTE_RATING_PER_PERCENT   haste rating needed for +1% (lower = faster)
-    MAX_HASTE_PERCENT          haste cap used in Haste Mode
-    STACK_DMG_FACTOR /
-    STACK_HEAL_FACTOR          multipliers for stack-scaling spells
 -----------------------------------------------------
 
 This is a visual and backend simulation. Your floating combat text will show the
@@ -102,6 +84,6 @@ This system communicates via hidden chat packets. If your server's Anti-Spam / A
 kicks you for example during Raids while using AOE DOT (Blizzard ect) : Raise the chat
 throttle limit, don't open an issue here. 
 
-# Not a problem yet since AOE does not apply extra ticks on every mob
+Not a problem yet since AOE does not apply extra ticks on every mob
 
-Author: Numi
+# Author: Numi
