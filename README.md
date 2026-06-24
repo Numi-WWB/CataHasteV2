@@ -1,5 +1,5 @@
  CataHaste  -  Cata-style Haste for DoTs & HoTs
- World of Warcraft 3.3.5a (WotLK)
+ World of Warcraft 3.3.5a Azerothcore (WotLK)
 =============================================
 This is open source. Feel free to expand or change it to you likings!
 Just credit me
