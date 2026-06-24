@@ -4,6 +4,8 @@
 This is open source. Feel free to expand or change it to you likings!
 Just credit me
 
+Made in / for https://github.com/kadeshar/ASP/releases
+
 READ END IF USED ON LIVE SERVERS!!!!
  
 WHAT IT DOES
