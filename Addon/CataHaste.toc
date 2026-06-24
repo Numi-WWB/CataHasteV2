@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: CataHaste
+## Notes: Floating damage numbers for CataHaste DoT extra-ticks + settings window
+## Author: Numi
+## Version: 1.0
+## SavedVariables: CataHasteDB
+
+CataHaste.lua
